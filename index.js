@@ -20,9 +20,9 @@
 // but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n,
 //  where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
 
-value = [1, 2, 3, 0, 0, 0];
+values = [1, 2, 3, 0, 0, 0];
 a = 3;
-value2 = [2, 5, 6];
+value = [2, 5, 6];
 b = 3;
 
 function mergeTwoSortArray(nums1, m, nums2, n) {
@@ -47,4 +47,4 @@ function mergeTwoSortArray(nums1, m, nums2, n) {
   return nums1
 }
 
-console.log(mergeTwoSortArray(value, a, value2, b));
+console.log(mergeTwoSortArray(values, a, value2, b));
