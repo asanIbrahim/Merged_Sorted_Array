@@ -41,7 +41,7 @@ function mergeTwoSortArray(nums1, m, nums2, n) {
     } else {
       nums1[i] = sValue;
       i--;
-      second--;
+      second--
     }
   }
   return nums1
