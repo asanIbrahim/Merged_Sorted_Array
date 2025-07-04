@@ -47,4 +47,4 @@ function mergeTwoSortArray(nums1, m, nums2, n) {
   return nums1
 }
 
-console.log(mergeTwoSortArray(values, a, value2, b));
+console.log(mergeTwoSortArray(values, a, value2, b))
