@@ -37,11 +37,11 @@ function mergeTwoSortArray(nums1, m, nums2, n) {
     if (fValue > sValue) {
       nums1[i] = fValue;
       i--;
-      first--;
+      first--
     } else {
       nums1[i] = sValue;
       i--;
-      second
+      second--
     }
   }
   return nums1
